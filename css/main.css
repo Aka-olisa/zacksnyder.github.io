@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* Scroll Style*/
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00ffee;
+    border-radius: 10px;
+  }
+  /* End of Scroll Style */
+
+html
+{
+    width: 100% !important;
+    /* border: 2px solid yellow; */
+    overflow-x: hidden;
+    margin: 0px;
+    overflow-y: scroll;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    
+}
+
+        /* This Css will hold the style of the other pages  */
+
+/* Warranty page css Begin */
+.container .warranty-content .img
+{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 60vh;
+    filter: blur(5px);
+    overflow: hidden;
+}
+.container .warranty-content .text-blur
+{
+    border: 2px solid #66FCF1;
+    width: 80%;
+    height: 50vh;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+
+}
+.container .warranty-content .text-blur h1
+{
+    font-size: 70px ;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 3px;
+    
+}
+.container .warranty-content .warranty-service
+{
+    /* border: 2px solid yellow; */
+    min-height: 50vh;
+    text-align: center;
+    padding-top: 15px;
+}
+.container .warranty-content .warranty-service h1
+{
+    font-size: 60px;
+    font-weight: 100;
+}
+.container .warranty-content .warranty-information
+{
+    /* border: 2px solid yellow; */
+    min-height: 50vh;
+    text-align: center;
+    padding-top: 15px;
+}
+.container .warranty-content .warranty-information h1
+{
+    font-size: 60px;
+    font-weight: 100;
+}
+.container .warranty-content .warranty-brands
+{
+    /* border: 2px solid yellow; */
+    justify-content: center;
+    width: 100%;
+}
+.container .warranty-content .warranty-brands .table-head
+{
+    /* border: 2px solid #C5C6C8 !important; */
+    text-align: center;
+    font-size: 50px;
+    height: 13vh;
+    font-weight: 100;
+}
+
+.container .warranty-content .warranty-brands table
+{
+    border-color: #C5C6C8;
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.container .warranty-content .warranty-brands table td
+{
+    padding-left: 20px;
+    font-size: 30px;
+    color: #C5C6C8;
+    font-weight: 400;
+}
+.container .warranty-content .warranty-brands table .text
+{
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+/* Responsive for warranty */
+@media (max-width:1200px) {
+
+.container .warranty-content .text-blur h1, .warranty-service h1, .warranty-information h1,.warranty-brands .table-head{
+        font-size: 50px !important;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .container .warranty-content .text-blur h1, .warranty-service h1, .warranty-information h1,.warranty-brands .table-head{
+            font-size: 40px !important;
+        }
+    .container .warranty-content .warranty-brands table td{
+        font-size: 25px;
+    }
+    .container .warranty-content .warranty-brands table .text{
+        font-size: 18px;
+    }
+    .container .warranty-content .warranty-brands .table-head{
+        height: 50px;
+    }
+    
+}
+@media (max-width:650px) {
+
+    .container .warranty-content .text-blur h1, .warranty-service h1, .warranty-information h1,.warranty-brands .table-head{
+            font-size: 30px !important;
+        }
+        .container .warranty-content .warranty-brands .table-head{
+            height: 60px;
+        }
+    .container .warranty-content .warranty-brands table td{
+        font-size: 20px;
+    }
+    .container .warranty-content .warranty-brands table .text{
+        font-size: 18px;
+    }
+    
+
+}
+
+@media (max-width:550px) {
+
+    .container .warranty-content .text-blur h1, .warranty-service h1, .warranty-information h1,.warranty-brands .table-head{
+            font-size: 25px !important;
+            
+        }
+        .container .warranty-content .warranty-brands .table-head{
+            height: 50px;
+        }
+    .container .warranty-content .warranty-brands table td{
+        font-size: 20px;
+    }
+    .container .warranty-content .warranty-brands table .text{
+        font-size: 18px;
+    }
+    
+
+}
+@media (max-width:403px) {
+
+    .container .warranty-content .text-blur h1, .warranty-service h1, .warranty-information h1,.warranty-brands .table-head{
+        font-size: 25px !important;
+        font-weight: 200;
+    }
+    .container .warranty-content .warranty-brands table td{
+        font-size: 18px;
+    }
+    .container .warranty-content .warranty-brands table .text{
+        font-size: 15px;
+    }
+    
+
+}
+/* End of  Responsive for warranty */
+
+/* Warranty page css End */
+
+
+
+
+
+/* About Us Css Start Here */
+.container .about-us-con .about-img
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 60vh;
+    margin-top: -6.5px;
+    background-size: cover;
+}
+.container .about-us-con .about-img .img-dark
+{
+    border: 2px solid black;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0,0,0,0.6);
+    
+}
+.container .about-us-con .about-info
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 70vh;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.container .about-us-con .about-contact-info
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 70vh;
+    text-align: center;
+    /* padding-top: 20px; */
+    
+}
+.container .about-us-con h1
+{
+    font-size: 60px;
+    font-weight: 100;
+    color: #66FCF1;
+}
+
+
+
+/* Resposive For About Us */
+@media (max-width:1200px) {
+    .container .about-us-con h1
+   {
+        font-size: 50px !important;
+    }
+    
+    }
+    
+@media (max-width:800px) {
+    
+    .container .about-us-con h1
+    {
+        font-size: 40px !important;
+     }
+    
+}
+
+@media (max-width:403px) {
+    
+    .container .about-us-con h1
+    {
+        font-size: 25px !important;
+        font-weight: 200;
+     }
+    
+}
+
+/* End Of Responsive */
+
+
+/* End Of Css For About Us */
+
+
+
+
+
+
+
+
+/* Dealer Css Begin */
+.container .dealer-content
+{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: inherit;
+}
+.container .dealer-content .dealer-info
+{
+    /* border: 2px solid yellow; */
+    height: 20vh;
+    margin-top: -6.5px;
+    text-align: center;
+   
+}
+.container .dealer-content .dealer-info h1 
+{
+    color: #66FCF1;
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.container .dealer-content .dealer-info p
+{
+    color: #C5C6C8;
+    font-size: 30px;
+    font-weight: 100;
+}
+.container .dealer-content .dealer-info .dealer-load
+{
+    opacity: 0%;
+    animation-duration: 0.7s;
+    animation-name: loader;
+    animation-iteration-count: infinite;
+}
+@keyframes loader{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.container .dealer-content .dealer-map-con
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height:89vh ;
+    margin-bottom: 30px;  
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.container .dealer-content .dealer-map-con .dealer-name-info
+{
+    /* border: 1px solid #C5C6C8; */
+    width: 45%;
+    overflow-y: scroll;
+    display: block;
+
+}
+.container .dealer-content .dealer-map-con .map-img
+{
+    /* border: 2px solid #66FCF1; */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 10px;
+    text-align: right;
+}
+.container .dealer-content .dealer-map-con .map-img .view-dealer
+{
+    display: none;
+    position: relative;
+    top: -40px;
+    font-weight: 100;
+    font-size: 22px;
+    color: #00ffee;
+    transition: 0.5s;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-1, .dealer-2, .dealer-3, .dealer-4, .dealer-5
+{
+    border: 1px solid rgb(202, 202, 202);
+    border-width: thin;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+.container .dealer-content .dealer-map-con .dealer-name-info h1 
+{
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    
+}
+.container .dealer-content .dealer-map-con .dealer-name-info h1 .view_map
+{
+    display: none;
+} 
+
+.container .dealer-content .dealer-map-con .dealer-name-info h1  p
+{
+    color: #C5C6C8;
+    font-size: 40px;
+    height: 45px;
+    border-bottom: 1px solid #C5C6C8;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info h1  .fa
+{
+    color: #C5C6C8;
+    font-size: 30px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .text
+{
+    color: #C5C6C8;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 25px;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .text b
+{
+    color: #C5C6C8;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .text a
+{
+    display: block;
+    border: 1px solid #00ffee;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    font-weight: 200;
+    color: #00ffee; 
+    transition: 0.5s;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .text a:hover
+{
+    transform:scale(1.06) ;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-1:hover h1 p
+{
+    color: #00ffee ;
+    border-bottom: 1px solid #00ffee;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-1:hover h1 .fa
+{
+    color: #00ffee ;
+
+}
+
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-2:hover h1 p
+{
+    color: #00ffee ;
+    border-bottom: 1px solid #00ffee;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-2:hover h1 .fa
+{
+    color: #00ffee ;
+
+}
+
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-3:hover h1 p
+{
+    color: #00ffee ;
+    border-bottom: 1px solid #00ffee;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-3:hover h1 .fa
+{
+    color: #00ffee ;
+
+}
+
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-4:hover h1 p
+{
+    color: #00ffee ;
+    border-bottom: 1px solid #00ffee;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-4:hover h1 .fa
+{
+    color: #00ffee ;
+
+}
+
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-5:hover h1 p
+{
+    color: #00ffee ;
+    border-bottom: 1px solid #00ffee;
+}
+.container .dealer-content .dealer-map-con .dealer-name-info .dealer-5:hover h1 .fa
+{
+    color: #00ffee ;
+
+}
+
+
+/* Responsive Of Dealer */
+@media (max-width:1200px){
+        .container .dealer-content .dealer-map-con .dealer-name-info h1  p
+    {
+        font-size: 30px;
+        height: 40px;
+        border-bottom: 1px solid #C5C6C8;
+    }
+        .container .dealer-content .dealer-map-con .dealer-name-info h1  .fa
+    {
+        color: #C5C6C8;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width:1000px){
+    .container .dealer-content .dealer-map-con .dealer-name-info h1  p
+    {
+        font-size: 25px;
+        height: 40px;
+        border-bottom: 1px solid #C5C6C8;
+    }
+        .container .dealer-content .dealer-map-con .dealer-name-info h1  .fa
+    {
+        color: #C5C6C8;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .container .dealer-content .dealer-info h1 
+    {
+        color: #66FCF1;
+        font-size: 50px;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+    .container .dealer-content .dealer-info p
+    {
+        color: #C5C6C8;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    
+}
+
+@media (max-width:900px){
+    .container .dealer-content .dealer-map-con .dealer-name-info h1  p
+    {
+        font-size: 25px;
+        height: 35px;
+        border-bottom: 1px solid #C5C6C8;
+    }
+        .container .dealer-content .dealer-map-con .dealer-name-info h1  .fa
+    {
+        color: #C5C6C8;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+}
+
+@media (max-width:860px){
+    .container .dealer-content .dealer-map-con .map-img
+    {
+        position: relative;
+        left: 100%;
+        display: none;
+        opacity: 0%;
+        padding: 10px;
+        text-align: right;
+    }
+    .container .dealer-content .dealer-map-con .map-img .view-dealer
+    {
+        display: block;
+        position: relative;
+        top: -40px;
+        font-weight: 100;
+        font-size: 22px;
+        color: #00ffee;
+        transition: 0.5s;
+
+    }
+    .container .dealer-content .dealer-map-con .map-img .view-dealer:hover
+    {
+        color: #C5C6C8;
+
+    }
+
+    .container .dealer-content .dealer-map-con .dealer-name-info
+    {
+    /* border: 1px solid #C5C6C8; */
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1  p
+    {
+        font-size: 40px;
+        height: 45px;
+        border-bottom: 1px solid #C5C6C8;
+    }
+        .container .dealer-content .dealer-map-con .dealer-name-info h1  .fa
+    {
+        color: #C5C6C8;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info .text b
+    {
+        color: #C5C6C8;
+        font-size: 25px;
+        font-weight: 500;
+
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info .text
+    {
+        color: #C5C6C8;
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 40px;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1 
+    {
+        font-weight: 100;
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        margin-left: 15px;
+        width: 100%;
+
+
+        
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1 .view_map
+    {
+        display: block;
+        /* border: 2px solid white; */
+        position: relative;
+        left: 10%;
+        display: flex;
+        font-weight: 100;
+        align-items: center;
+        font-size: 22px;
+        transition: 0.5s;
+        color: #00ffee;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1 .view_map:hover
+    {
+        color: #C5C6C8;
+
+    }
+    .container .dealer-content .dealer-info h1 
+    {
+        color: #66FCF1;
+        font-size: 40px;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+    .container .dealer-content .dealer-info p
+    {
+        color: #C5C6C8;
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+        
+}
+@media (max-width:525px){
+    .container .dealer-content .dealer-map-con .dealer-name-info h1  p
+    {
+        font-size: 30px;
+        height: 42px;
+        border-bottom: 1px solid #C5C6C8;
+    }
+    .container .dealer-content .dealer-info p
+    {
+        color: #C5C6C8;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1  .fa
+    {
+        color: #C5C6C8;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 11px;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info .text
+    {
+        font-size: 18px;
+        margin-left: 29px;
+  
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info .text b
+    {
+        color: #C5C6C8;
+        font-size: 22px;
+        font-weight: 500;
+
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1 
+    {
+        margin-left: 5px;
+        
+    }
+    .container .dealer-content .dealer-info
+    {
+        /* border: 2px solid yellow; */
+        height: 15vh;
+        margin-top: -6.5px;
+        text-align: center;
+    
+    }
+
+}
+
+@media (max-width:403px){
+    .container .dealer-content .dealer-map-con .dealer-name-info h1  p
+    {
+        font-size: 25px;
+        height: 30px;
+        border-bottom: 1px solid #C5C6C8;
+    }
+
+    .container .dealer-content .dealer-map-con .dealer-name-info h1  .fa
+    {
+        color: #C5C6C8;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1 
+    {
+        margin-left: 9px;
+        
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info h1 .view_map
+    {
+        font-size: 15px;
+
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info .text
+    {
+        font-size: 17px;
+        margin-left: 24px;
+    }
+    .container .dealer-content .dealer-map-con .dealer-name-info .text b
+    {
+        color: #C5C6C8;
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+    .container .dealer-content .dealer-map-con .map-img .view-dealer
+    {
+        font-size: 15px;
+        top: -32px;
+    }
+        .container .dealer-content .dealer-info h1 
+    {
+        font-size: 25px;
+        font-weight: 200;
+
+    }
+    .container .dealer-content .dealer-info
+    {
+        /* border: 2px solid yellow; */
+        height: 13vh;
+        margin-top: -6.5px;
+        text-align: center;
+    
+    }
+
+
+
+
+
+}
